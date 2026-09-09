@@ -1,0 +1,21 @@
+# Backend
+backend/target/
+backend/uploads/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Environment and secrets
+.env
+.env.*
+application-local.properties
+backend/src/main/resources/application.properties
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,21 +1,27 @@
-# Backend
+﻿# Backend
 backend/target/
-backend/uploads/
+backend/uploads/*
+!backend/uploads/.gitkeep
 
 # Frontend
 frontend/node_modules/
 frontend/dist/
+frontend/.env
+frontend/.env.local
 
-# Environment and secrets
-.env
-.env.*
-application-local.properties
-backend/src/main/resources/application.properties
+# Local maven distribution
+maven/
 
-# IDE
+# IDE & Editor files
 .vscode/
 .idea/
+*.iml
+*.ipr
+*.iws
 
-# OS
+# OS files
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
